@@ -1,0 +1,272 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 11.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      9299,        262]
+NotebookOptionsPosition[      8678,        235]
+NotebookOutlinePosition[      9032,        251]
+CellTagsIndexPosition[      8989,        248]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{"5.6", "/", "30"}]], "Input",
+ CellChangeTimes->{{3.693915281567643*^9, 3.693915292134099*^9}, {
+  3.693916882718871*^9, 3.6939168839903803`*^9}, {3.6939169278909073`*^9, 
+  3.693916931490361*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"0.18666666666666665`", "/", "11.1"}]], "Input",
+ CellChangeTimes->{{3.6939169411354322`*^9, 3.693916953088086*^9}}],
+
+Cell[BoxData["0.016816816816816817`"], "Output",
+ CellChangeTimes->{3.693916954595882*^9}]
+}, Open  ]],
+
+Cell[BoxData["PoissonDistribution"], "Input",
+ CellChangeTimes->{{3.6939165147947893`*^9, 3.6939165181224937`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Q", "=", 
+  RowBox[{"QueueingProcess", "[", 
+   RowBox[{"0.18666666666666665`", ",", "0.016816816816816817`"}], 
+   "]"}]}]], "Input",
+ CellChangeTimes->{{3.6939155920168962`*^9, 3.6939156122099257`*^9}, {
+  3.693915649440181*^9, 3.693915650276764*^9}, {3.693916029414953*^9, 
+  3.693916044727702*^9}, {3.693916869755464*^9, 3.6939168969355392`*^9}, {
+  3.6939169611268473`*^9, 3.693916966927668*^9}}],
+
+Cell[BoxData[
+ RowBox[{"QueueingProcess", "[", 
+  RowBox[{
+  "0.18666666666666665`", ",", "0.016816816816816817`", ",", "1", ",", 
+   "\[Infinity]", ",", "0"}], "]"}]], "Output",
+ CellChangeTimes->{
+  3.693915612907021*^9, 3.693915650967534*^9, {3.693916030205852*^9, 
+   3.69391604524667*^9}, 3.693916898357432*^9, 3.693916967426929*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"QueueProperties", "[", "Q", "]"}]], "Input",
+ CellChangeTimes->{{3.693915652998233*^9, 3.693915658839698*^9}}],
+
+Cell[BoxData[
+ TagBox[GridBox[{
+    {
+     GraphicsBox[GeometricTransformationBox[
+       {Arrowheads[Medium], {{
+          {GrayLevel[1], 
+           RectangleBox[NCache[{3, Rational[-1, 2]}, {3, -0.5}]]}, {
+           {GrayLevel[0], 
+            LineBox[NCache[{{3, Rational[-1, 2]}, {3, Rational[1, 2]}}, {{
+               3, -0.5}, {3, 0.5}}]]}, 
+           {GrayLevel[0], 
+            LineBox[NCache[{{Rational[16, 5], Rational[-1, 2]}, {
+               Rational[16, 5], Rational[1, 2]}}, {{3.2, -0.5}, {3.2, 
+              0.5}}]]}, 
+           {GrayLevel[0], 
+            LineBox[NCache[{{Rational[17, 5], Rational[-1, 2]}, {
+               Rational[17, 5], Rational[1, 2]}}, {{3.4, -0.5}, {3.4, 
+              0.5}}]]}, 
+           {GrayLevel[0], 
+            LineBox[NCache[{{Rational[18, 5], Rational[-1, 2]}, {
+               Rational[18, 5], Rational[1, 2]}}, {{3.6, -0.5}, {3.6, 
+              0.5}}]]}, 
+           {GrayLevel[0], 
+            LineBox[NCache[{{Rational[19, 5], Rational[-1, 2]}, {
+               Rational[19, 5], Rational[1, 2]}}, {{3.8, -0.5}, {3.8, 
+              0.5}}]]}, 
+           {GrayLevel[0], 
+            LineBox[NCache[{{4, Rational[-1, 2]}, {4, Rational[1, 2]}}, {{
+               4, -0.5}, {4, 0.5}}]]}}, 
+          {GrayLevel[0], 
+           LineBox[NCache[{{1, Rational[-1, 2]}, {4, Rational[-1, 2]}, {
+              4, Rational[1, 2]}, {1, Rational[1, 2]}}, {{1, -0.5}, {
+              4, -0.5}, {4, 0.5}, {1, 0.5}}]]}}, 
+         {GrayLevel[0], ArrowBox[{{0, 0}, {2, 0}}]}, 
+         TagBox[
+          
+          TooltipBox[
+           InsetBox["\<\"0.1\"\>", NCache[{Rational[1, 2], 0}, {0.5, 0}], 
+            ImageScaled[{Rational[1, 2], 0}],
+            BaseStyle->{Background -> RGBColor[0.85, 0.85, 0.85]}],
+           "0.18666666666666665`"],
+          Annotation[#, 0.18666666666666665`, "Tooltip"]& ]}, 
+        {GrayLevel[1], EdgeForm[GrayLevel[0]], DiskBox[{6.5, 0}, 0.5]}, 
+        TagBox[
+         TooltipBox[
+          InsetBox["\<\"0.0\"\>", {6.5, 0}, 
+           ImageScaled[{Rational[1, 2], Rational[1, 2]}],
+           BaseStyle->{Background -> RGBColor[0.85, 0.85, 0.85]}],
+          "0.016816816816816817`"],
+         Annotation[#, 0.016816816816816817`, "Tooltip"]& ], 
+        {GrayLevel[0], ArrowBox[{{4, 0}, {6., 0.}}]}, 
+        {GrayLevel[0], ArrowBox[{{7, 0}, {8, 0}}]}}, 
+       NCache[{{{Rational[1, 8], 0}, {0, Rational[1, 8]}}, {
+         0, Rational[1, 2]}}, {{{0.125, 0}, {0, 0.125}}, {0, 0.5}}]],
+      AlignmentPoint->Center,
+      Axes->False,
+      AxesLabel->None,
+      AxesOrigin->Automatic,
+      AxesStyle->{},
+      Background->RGBColor[1., 1., 0.85],
+      BaseStyle->{},
+      BaselinePosition->Automatic,
+      ColorOutput->Automatic,
+      ContentSelectable->Automatic,
+      CoordinatesToolOptions:>Automatic,
+      DisplayFunction:>$DisplayFunction,
+      Epilog->{},
+      FormatType:>TraditionalForm,
+      FrameTicks->None,
+      FrameTicksStyle->{},
+      GridLines->None,
+      GridLinesStyle->{},
+      ImageMargins->0.,
+      ImagePadding->All,
+      ImageSizeRaw->Automatic,
+      Method->Automatic,
+      PlotRange->All,
+      PlotRangeClipping->False,
+      PlotRangePadding->Automatic,
+      PlotRegion->Automatic,
+      PreserveImageOptions->Automatic,
+      Prolog->{},
+      RotateLabel->True,
+      Ticks->None,
+      TicksStyle->{}], "\[SpanFromLeft]"},
+    {
+     InterpretationBox[Cell[BoxData[
+       FormBox[
+        StyleBox["\<\"Basic Properties\"\>",
+         StripOnInput->False,
+         FontWeight->Bold], TextForm]], "InlineText"],
+      Text[
+       Style["Basic Properties", Bold]]], "\[SpanFromLeft]"},
+    {
+     InterpretationBox[Cell[BoxData[
+       FormBox["\<\"QueueNotation\"\>", TextForm]], "InlineText"],
+      Text["QueueNotation"]], "\<\"M/M/1\"\>"},
+    {
+     InterpretationBox[Cell[BoxData[
+       FormBox["\<\"ArrivalRate\"\>", TextForm]], "InlineText"],
+      Text["ArrivalRate"]], "0.18666666666666665`"},
+    {
+     InterpretationBox[Cell[BoxData[
+       FormBox["\<\"ServiceRate\"\>", TextForm]], "InlineText"],
+      Text["ServiceRate"]], "0.016816816816816817`"},
+    {
+     InterpretationBox[Cell[BoxData[
+       FormBox["\<\"UtilizationFactor\"\>", TextForm]], "InlineText"],
+      Text["UtilizationFactor"]], "11.1`"},
+    {
+     InterpretationBox[Cell[BoxData[
+       FormBox["\<\"Throughput\"\>", TextForm]], "InlineText"],
+      Text["Throughput"]], "0.18666666666666668`"},
+    {
+     InterpretationBox[Cell[BoxData[
+       FormBox["\<\"ServiceChannels\"\>", TextForm]], "InlineText"],
+      Text["ServiceChannels"]], "1"},
+    {
+     InterpretationBox[Cell[BoxData[
+       FormBox["\<\"SystemCapacity\"\>", TextForm]], "InlineText"],
+      Text["SystemCapacity"]], "\[Infinity]"},
+    {
+     InterpretationBox[Cell[BoxData[
+       FormBox["\<\"InitialState\"\>", TextForm]], "InlineText"],
+      Text["InitialState"]], "0"},
+    {
+     InterpretationBox[Cell[BoxData[
+       FormBox[
+        StyleBox["\<\"Performance Measures\"\>",
+         StripOnInput->False,
+         FontWeight->Bold], TextForm]], "InlineText"],
+      Text[
+       Style["Performance Measures", Bold]]], "\[SpanFromLeft]"},
+    {
+     InterpretationBox[Cell[BoxData[
+       FormBox["\<\"MeanSystemSize\"\>", TextForm]], "InlineText"],
+      Text["MeanSystemSize"]], 
+     RowBox[{"Missing", "[", "\<\"NotAvailable\"\>", "]"}]},
+    {
+     InterpretationBox[Cell[BoxData[
+       FormBox["\<\"MeanSystemTime\"\>", TextForm]], "InlineText"],
+      Text["MeanSystemTime"]], 
+     RowBox[{"Missing", "[", "\<\"NotAvailable\"\>", "]"}]},
+    {
+     InterpretationBox[Cell[BoxData[
+       FormBox["\<\"MeanQueueSize\"\>", TextForm]], "InlineText"],
+      Text["MeanQueueSize"]], 
+     RowBox[{"Missing", "[", "\<\"NotAvailable\"\>", "]"}]},
+    {
+     InterpretationBox[Cell[BoxData[
+       FormBox["\<\"MeanQueueTime\"\>", TextForm]], "InlineText"],
+      Text["MeanQueueTime"]], 
+     RowBox[{"Missing", "[", "\<\"NotAvailable\"\>", "]"}]}
+   },
+   AutoDelete->False,
+   BaseStyle->{FontFamily -> "Times"},
+   GridBoxAlignment->{"Columns" -> {{Left}}, "Rows" -> {{Baseline}}},
+   GridBoxBackground->{"Columns" -> {{
+        RGBColor[1., 1., 0.85]}}},
+   GridBoxFrame->{"Columns" -> {{True}}, "Rows" -> {{True}}},
+   GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+   GridBoxSpacings->{"Columns" -> {{1}}, "Rows" -> {{1}}}],
+  "Grid"]], "Output",
+ CellChangeTimes->{
+  3.693915659455907*^9, {3.693916033696528*^9, 3.693916050432613*^9}, 
+   3.6939169018233137`*^9, 3.693916972360721*^9}]
+}, Open  ]]
+},
+WindowSize->{808, 600},
+WindowMargins->{{124, Automatic}, {Automatic, 4}},
+FrontEndVersion->"11.0 for Mac OS X x86 (32-bit, 64-bit Kernel) (July 28, \
+2016)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 220, 4, 32, "Input"],
+Cell[CellGroupData[{
+Cell[803, 28, 139, 2, 32, InheritFromParent],
+Cell[945, 32, 90, 1, 32, "Output"]
+}, Open  ]],
+Cell[1050, 36, 115, 1, 32, "Input"],
+Cell[CellGroupData[{
+Cell[1190, 41, 425, 8, 32, "Input"],
+Cell[1618, 51, 338, 7, 32, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[1993, 63, 134, 2, 32, "Input"],
+Cell[2130, 67, 6532, 165, 498, "Output"]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)
+
