@@ -1,5 +1,5 @@
 # mathematical_modeling_queues
-This repo contains the code for our teams simulations from the 2017 COMAP MCM. These simulations accompanied a paper which was awarded the distinction of meritorious.
+This repo contains the code for our team's (Adam Jump, Amy Vennos, and Richard Quackenbush) simulations from the 2017 COMAP MCM. These simulations accompanied a paper which was awarded the distinction of meritorious. Also included is the poster which was presented at Salisbury University Student Research Conference, and the MAA section meetings in Frostburg, Maryland.
 
 Current System             |  Proposed System
 :-------------------------:|:-------------------------:
